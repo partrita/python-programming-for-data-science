@@ -53,4 +53,4 @@ format:
   html:
     theme: cosmo
     number-sections: false
-    code-fold: true
+    code-fold: false
