@@ -5,49 +5,46 @@ book:
   title: "데이터 과학을 위한 파이썬 프로그래밍"
   author: "Tomas Beuzen"
   repo-url: "https://github.com/TomasBeuzen/python-programming-for-data-science"
-  sidebar:
-    style: "floating"
-    search: true
-    contents:
-      - index.qmd
-      - part: "강의 본문"
-        chapters:
-          - text: "1장: 파이썬 기초"
-            file: chapters/chapter1-basics.ipynb
-          - text: "2장: 반복문과 함수"
-            file: chapters/chapter2-loops-functions.ipynb
-          - text: "3장: 단위 테스트와 클래스"
-            file: chapters/chapter3-tests-classes.ipynb
-          - text: "4장: 스타일 가이드, 스크립트, 임포트"
-            file: chapters/chapter4-style-scripts-imports.ipynb
-          - text: "5장: NumPy 기초"
-            file: chapters/chapter5-numpy.ipynb
-          - text: "6장: NumPy 추가 내용"
-            file: chapters/chapter6-numpy-addendum.ipynb
-          - text: "7장: Pandas 기초"
-            file: chapters/chapter7-pandas.ipynb
-          - text: "8장: 데이터 랭글링 기초"
-            file: chapters/chapter8-wrangling-basics.ipynb
-          - text: "9장: 데이터 랭글링 심화"
-            file: chapters/chapter9-wrangling-advanced.ipynb
-      - part: "연습 문제"
-        chapters:
-          - text: "1장 연습 문제"
-            file: practice-exercises/chapter1-basics-practice.ipynb
-          - text: "2장 연습 문제"
-            file: practice-exercises/chapter2-loops-functions-practice.ipynb
-          - text: "3장 연습 문제"
-            file: practice-exercises/chapter3-tests-classes-practice.ipynb
-          - text: "4장 연습 문제"
-            file: practice-exercises/chapter4-style-scripts-imports-practice.ipynb
-          - text: "5장 연습 문제"
-            file: practice-exercises/chapter5-numpy-practice.ipynb
-          - text: "7장 연습 문제"
-            file: practice-exercises/chapter7-pandas-practice.ipynb
-          - text: "8장 연습 문제"
-            file: practice-exercises/chapter8-wrangling-basics-practice.ipynb
-          - text: "9장 연습 문제"
-            file: practice-exercises/chapter9-wrangling-advanced-practice.ipynb
+  chapters:
+    - index.qmd
+    - part: "강의 본문"
+      chapters:
+        - text: "1장: 파이썬 기초"
+          file: chapters/chapter1-basics.ipynb
+        - text: "2장: 반복문과 함수"
+          file: chapters/chapter2-loops-functions.ipynb
+        - text: "3장: 단위 테스트와 클래스"
+          file: chapters/chapter3-tests-classes.ipynb
+        - text: "4장: 스타일 가이드, 스크립트, 임포트"
+          file: chapters/chapter4-style-scripts-imports.ipynb
+        - text: "5장: NumPy 기초"
+          file: chapters/chapter5-numpy.ipynb
+        - text: "6장: NumPy 추가 내용"
+          file: chapters/chapter6-numpy-addendum.ipynb
+        - text: "7장: Pandas 기초"
+          file: chapters/chapter7-pandas.ipynb
+        - text: "8장: 데이터 랭글링 기초"
+          file: chapters/chapter8-wrangling-basics.ipynb
+        - text: "9장: 데이터 랭글링 심화"
+          file: chapters/chapter9-wrangling-advanced.ipynb
+    - part: "연습 문제"
+      chapters:
+        - text: "1장 연습 문제"
+          file: practice-exercises/chapter1-basics-practice.ipynb
+        - text: "2장 연습 문제"
+          file: practice-exercises/chapter2-loops-functions-practice.ipynb
+        - text: "3장 연습 문제"
+          file: practice-exercises/chapter3-tests-classes-practice.ipynb
+        - text: "4장 연습 문제"
+          file: practice-exercises/chapter4-style-scripts-imports-practice.ipynb
+        - text: "5장 연습 문제"
+          file: practice-exercises/chapter5-numpy-practice.ipynb
+        - text: "7장 연습 문제"
+          file: practice-exercises/chapter7-pandas-practice.ipynb
+        - text: "8장 연습 문제"
+          file: practice-exercises/chapter8-wrangling-basics-practice.ipynb
+        - text: "9장 연습 문제"
+          file: practice-exercises/chapter9-wrangling-advanced-practice.ipynb
 
 format:
   html:
