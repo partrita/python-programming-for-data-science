@@ -1,0 +1,34 @@
+project:
+  type: book
+
+book:
+  title: "Python Programming for Data Science"
+  author: "Tomas Beuzen"
+  repo-url: "https://github.com/TomasBeuzen/python-programming-for-data-science"
+  chapters:
+    - index.qmd
+    - part: "Chapters"
+      chapters:
+        - chapters/chapter1-basics.ipynb
+        - chapters/chapter2-loops-functions.ipynb
+        - chapters/chapter3-tests-classes.ipynb
+        - chapters/chapter4-style-scripts-imports.ipynb
+        - chapters/chapter5-numpy.ipynb
+        - chapters/chapter6-numpy-addendum.ipynb
+        - chapters/chapter7-pandas.ipynb
+        - chapters/chapter8-wrangling-basics.ipynb
+        - chapters/chapter9-wrangling-advanced.ipynb
+    - part: "Practice Exercises"
+      chapters:
+        - practice-exercises/chapter1-basics-practice.ipynb
+        - practice-exercises/chapter2-loops-functions-practice.ipynb
+        - practice-exercises/chapter3-tests-classes-practice.ipynb
+        - practice-exercises/chapter4-style-scripts-imports-practice.ipynb
+        - practice-exercises/chapter5-numpy-practice.ipynb
+        - practice-exercises/chapter7-pandas-practice.ipynb
+        - practice-exercises/chapter8-wrangling-basics-practice.ipynb
+        - practice-exercises/chapter9-wrangling-advanced-practice.ipynb
+
+format:
+  html:
+    theme: cosmo

@@ -1,5 +1,6 @@
 import math
 
+
 class Circle:
     """A circle with a radius r."""
 
@@ -8,7 +9,7 @@ class Circle:
 
     def area(self):
         """Calculate the area of the circle."""
-        return math.pi * self.radius ** 2
+        return math.pi * self.radius**2
 
     def circumference(self):
         """Calculate the circumference of the circle."""
