@@ -1,0 +1,46 @@
+# 데이터 과학을 위한 파이썬 프로그래밍
+
+**저자: [Tomas Beuzen](https://www.tomasbeuzen.com/) 🚀**
+
+"데이터 과학을 위한 파이썬 프로그래밍"에 오신 것을 환영합니다! 이 [웹사이트](https://www.tomasbeuzen.com/python-programming-for-data-science/)를 통해 파이썬을 데이터 과학에 활용하기 위해 알아야 할 모든 기초 지식을 제공하고자 합니다. 데이터 구조, 기본 프로그래밍, 코드 테스트 및 문서화, 그리고 NumPy와 Pandas 같은 라이브러리를 활용한 데이터 탐색 및 분석 등을 다룹니다.
+
+<p align="center">
+  <img src="docs/logo.png" width="260">
+</p>
+
+>파이썬 패키지에 대해 더 자세히 알고 싶다면, 저와 [Tiffany Timber](https://www.tiffanytimbers.com/)가 함께 쓴 책 [**Python Packages**](https://py-pkgs.org/)를 확인해 보세요. 또한 파이썬과 PyTorch를 이용한 딥러닝에 관심이 있다면 저의 다른 온라인 자료인 [**Deep Learning with PyTorch**](https://www.tomasbeuzen.com/deep-learning-with-pytorch/)를 참고하시기 바랍니다.
+
+>이 사이트의 내용은 브리티시 컬럼비아 대학교(UBC) 데이터 과학 석사 과정의 "DSCI 511 Python Programming for Data Science" (2020/2021) 강의 자료를 기반으로 수정되었습니다. 이 자료는 [Patrick Walls](https://www.math.ubc.ca/~pwalls/)와 [Mike Gelbart](https://www.mikegelbart.com/)가 개발한 이전 강의 자료를 토대로 만들어졌습니다.
+
+## 핵심 학습 목표
+
+이 자료를 통해 다음과 같은 내용을 학습할 수 있습니다:
+
+1. 루프, 조건문 등 기본적인 프로그래밍 개념을 파이썬 코드로 구현합니다.
+2. 파이썬의 핵심 데이터 구조를 이해합니다.
+3. 파이썬 함수를 작성하고 단위 테스트(unit testing)를 통해 정확성을 검증하는 방법을 익힙니다.
+4. 코드를 언제, 어떻게 추상화(예: 함수나 클래스)하여 더 모듈화되고 견고하게 만들지 이해합니다.
+5. 프로그래밍 관례, 문서화, 코딩 스타일의 모범 사례를 적용하여 사람이 읽기 쉬운 코드를 작성합니다.
+6. NumPy를 사용하여 파이썬에서 일반적인 데이터 랭글링(wrangling) 및 계산 작업을 수행합니다.
+7. Pandas를 사용하여 Series 및 DataFrame과 같은 데이터 구조를 생성하고 조작합니다.
+8. 숫자 데이터, 문자열, 날짜/시간(datetime) 등 다양한 타입의 데이터를 Pandas에서 다룹니다.
+
+## 시작하기
+
+이 사이트의 자료는 Jupyter Notebook으로 작성되었으며, 접근성을 높이기 위해 [Jupyter Book](https://jupyterbook.org/intro.html)으로 렌더링되었습니다. 만약 이 노트북들을 로컬 컴퓨터에서 직접 실행해보고 싶다면 다음 단계를 따르세요:
+
+1. GitHub 저장소를 클론합니다:
+   ```sh
+   git clone https://github.com/TomasBeuzen/python-programming-for-data-science.git
+   ```
+2. 터미널에서 다음 명령어를 입력하여 conda 환경을 설치합니다:
+   ```sh
+   conda env create -f py4ds.yaml
+   ```
+3. 터미널에서 다음 명령어를 입력하여 JupyterLab에서 코스를 엽니다:
+   ```sh
+   cd python-programming-for-data-science
+   jupyterlab
+   ```
+
+>`git`, `GitHub` 또는 `conda` 사용이 익숙하지 않더라도 걱정하지 마세요. 이 웹사이트의 내용을 읽는 것만으로도 모든 학습 내용을 충분히 파악할 수 있습니다!
