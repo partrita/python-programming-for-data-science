@@ -1,0 +1,4 @@
+
+[lint]
+# Ignore common notebook errors in tutorial/practice files
+"per-file-ignores" = { "*.ipynb" = ["F811", "F821", "F403", "F405", "E402", "E731", "E722", "E741", "E999"] }
